@@ -1,2 +1,12 @@
 # Build settings
+title: One Data Model Registry
 theme: jekyll-theme-modernist
+description: > # description of the web pages for ODM
+ Please follow the steps described in the [README](https://github.com/one-data-model/prototype-registry/blob/master/README.md) file
+ for a successful submission.
+ 
+# social links
+twitter_username: onedatamodel
+github_username:  onedatamodel@domain.org
+
+show_excerpts: true # set to false to remove excerpts on the homepage
