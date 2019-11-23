@@ -50,133 +50,118 @@
 </table>
 
 
-{
-  "created": "2019-11-23T00:12:38.483Z",
-  "folder": "models",
-  "items": [
-    {
-      "name": "BT_Mesh",
-      "items": [
-        {
-          "name": "sensor.sdf.json",
-          "data": {
-            "info": {
-              "title": "Example file for BT Mesh Sensor Model definition in OneDM SDF format",
-              "version": "20190910",
-              "copyright": "Copyright 2019 Example Corp. All rights reserved.",
-              "license": "http://example.com/license"
-            }
-          }
-        },
-        {
-          "name": "temperature-sensor.sdf.json",
-          "data": {
-            "info": {
-              "title": "Example file for BT Mesh Sensor Temperature type definition in OneDM SDF format",
-              "version": "20190910",
-              "copyright": "Copyright 2019 Example Corp. All rights reserved.",
-              "license": "http://example.com/license"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "DotDot",
-      "items": []
-    },
-    {
-      "name": "IPSO",
-      "items": [
-        {
-          "name": "ipso3300-new.sdf.json",
-          "data": {
-            "info": {
-              "title": "Example ODM model for a relatively simple composed thing using\n    IPSO Smart Object Components",
-              "version": "20190524",
-              "copyright": "no copyright",
-              "license": "not licensed"
-            }
-          }
-        },
-        {
-          "name": "ipso3300.sdf.json",
-          "data": {
-            "info": {
-              "title": "Example ODM model for a relatively simple composed thing using\n    IPSO Smart Object Components",
-              "version": "20190524",
-              "copyright": "no copyright",
-              "license": "not licensed"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "OCF",
-      "items": [
-        {
-          "name": "ocf-airflowcontrol.sdf.json",
-          "data": {
-            "info": {
-              "title": "OCF odmObject libarary",
-              "version": "20190530",
-              "copyright": "OCF (TBD)",
-              "license": "OCF (TBD)"
-            }
-          }
-        },
-        {
-          "name": "ocf-example.sdf.json",
-          "data": {
-            "info": {
-              "title": "Example ODM model to illustrate the use of the odmView class",
-              "version": "20190531",
-              "copyright": "no copyright",
-              "license": "not licensed"
-            }
-          }
-        },
-        {
-          "name": "ocf.washer-new.sdf.json",
-          "data": {
-            "info": {
-              "title": "OCF washer",
-              "version": "20190530",
-              "copyright": "OCF (TBD)",
-              "license": "OCF (TBD)"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "ZCL",
-      "items": [
-        {
-          "name": "level.sdf.json",
-          "data": {
-            "info": {
-              "title": "Example ODM model for the ZCL Level cluster",
-              "version": "20190504",
-              "copyright": "no copyright",
-              "license": "not licensed",
-              "validationschema": "http://github.com/one-data-model/language/v1/sdf-schema.json"
-            }
-          }
-        },
-        {
-          "name": "level.x.sdf.json",
-          "data": {
-            "info": {
-              "title": "Example ODM model for the ZCL Level cluster",
-              "version": "20190504",
-              "copyright": "no copyright",
-              "license": "not licensed"
-            }
-          }
-        }
-      ]
-    }
-  ]
-}
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">name</th>
+<th title="Field #2">items/0/name</th>
+<th title="Field #3">items/0/data/info/title</th>
+<th title="Field #4">items/0/data/info/version</th>
+<th title="Field #5">items/0/data/info/copyright</th>
+<th title="Field #6">items/0/data/info/license</th>
+<th title="Field #7">items/1/name</th>
+<th title="Field #8">items/1/data/info/title</th>
+<th title="Field #9">items/1/data/info/version</th>
+<th title="Field #10">items/1/data/info/copyright</th>
+<th title="Field #11">items/1/data/info/license</th>
+<th title="Field #12">items/2/name</th>
+<th title="Field #13">items/2/data/info/title</th>
+<th title="Field #14">items/2/data/info/version</th>
+<th title="Field #15">items/2/data/info/copyright</th>
+<th title="Field #16">items/2/data/info/license</th>
+<th title="Field #17">items/0/data/info/validationschema</th>
+</tr></thead>
+<tbody><tr>
+<td>BT_Mesh</td>
+<td>sensor.sdf.json</td>
+<td>Example file for BT Mesh Sensor Model definition in OneDM SDF format</td>
+<td>20190910</td>
+<td>Copyright 2019 Example Corp. All rights reserved.</td>
+<td>http://example.com/license</td>
+<td>temperature-sensor.sdf.json</td>
+<td>Example file for BT Mesh Sensor Temperature type definition in OneDM SDF format</td>
+<td>20190910</td>
+<td>Copyright 2019 Example Corp. All rights reserved.</td>
+<td>http://example.com/license</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>DotDot</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>IPSO</td>
+<td>ipso3300-new.sdf.json</td>
+<td>Example ODM model for a relatively simple composed thing using<br/>    IPSO Smart Object Components</td>
+<td>20190524</td>
+<td>no copyright</td>
+<td>not licensed</td>
+<td>ipso3300.sdf.json</td>
+<td>Example ODM model for a relatively simple composed thing using<br/>    IPSO Smart Object Components</td>
+<td>20190524</td>
+<td>no copyright</td>
+<td>not licensed</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>OCF</td>
+<td>ocf-airflowcontrol.sdf.json</td>
+<td>OCF odmObject libarary</td>
+<td>20190530</td>
+<td>OCF (TBD)</td>
+<td>OCF (TBD)</td>
+<td>ocf-example.sdf.json</td>
+<td>Example ODM model to illustrate the use of the odmView class</td>
+<td>20190531</td>
+<td>no copyright</td>
+<td>not licensed</td>
+<td>ocf.washer-new.sdf.json</td>
+<td>OCF washer</td>
+<td>20190530</td>
+<td>OCF (TBD)</td>
+<td>OCF (TBD)</td>
+<td> </td>
+</tr>
+<tr>
+<td>ZCL</td>
+<td>level.sdf.json</td>
+<td>Example ODM model for the ZCL Level cluster</td>
+<td>20190504</td>
+<td>no copyright</td>
+<td>not licensed</td>
+<td>level.x.sdf.json</td>
+<td>Example ODM model for the ZCL Level cluster</td>
+<td>20190504</td>
+<td>no copyright</td>
+<td>not licensed</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>http://github.com/one-data-model/language/v1/sdf-schema.json</td>
+</tr>
+</tbody></table>
