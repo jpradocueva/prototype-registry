@@ -166,34 +166,16 @@
 </tr>
 </tbody></table>
 
-# Report
-
-## Overview
-
-**Created**: Sun Nov 24 2019 17:35:51 GMT-0500 (Ecuador Time)
-
-**Folder**: models
 
 
-**BT_Mesh**
+## BT_Mesh
 
 **Name**: sensor.sdf.json
 
-| name | value |
-| --- | --- |
-| Title | Example file for BT Mesh Sensor Model definition in OneDM SDF format |
-| Version | 20190910 |
-| Copyright | Copyright 2019 Example Corp. All rights reserved. |
-| License | http://example.com/license |
-
-**Name**: temperature-sensor.sdf.json
-
-| name | value |
-| --- | --- |
-| Title | Example file for BT Mesh Sensor Temperature type definition in OneDM SDF format |
-| Version | 20190910 |
-| Copyright | Copyright 2019 Example Corp. All rights reserved. |
-| License | http://example.com/license |
+| name | Title | Version | Copyright | License |
+| --- | ------ | ------- | --------- | ------- |
+| sensor.sdf.json | Example file for BT Mesh Sensor Model definition in OneDM SDF format | 20190910 | Copyright 2019 Example Corp. All rights reserved. | http://example.com/license |
+| temperature-sensor.sdf.json |  Example file for BT Mesh Sensor Temperature type definition in OneDM SDF format | 20190910 | Copyright 2019 Example Corp. All rights reserved. | http://example.com/license |
 
 
 ---
