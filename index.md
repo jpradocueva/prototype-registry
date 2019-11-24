@@ -51,8 +51,6 @@
 
 ## BT_Mesh
 
-**Name**: sensor.sdf.json
-
 | name | Title | Version | Copyright | License |
 | --- | ------ | ------- | --------- | ------- |
 | sensor.sdf.json | Example file for BT Mesh Sensor Model definition in OneDM SDF format | 20190910 | Copyright 2019 Example Corp. All rights reserved. | http://example.com/license |
