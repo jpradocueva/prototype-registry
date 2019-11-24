@@ -165,3 +165,113 @@
 <td>http://github.com/one-data-model/language/v1/sdf-schema.json</td>
 </tr>
 </tbody></table>
+
+# Report
+
+## Overview
+
+**Created**: Sun Nov 24 2019 17:35:51 GMT-0500 (Ecuador Time)
+
+**Folder**: models
+
+
+**BT_Mesh**
+
+**Name**: sensor.sdf.json
+
+| name | value |
+| --- | --- |
+| Title | Example file for BT Mesh Sensor Model definition in OneDM SDF format |
+| Version | 20190910 |
+| Copyright | Copyright 2019 Example Corp. All rights reserved. |
+| License | http://example.com/license |
+
+**Name**: temperature-sensor.sdf.json
+
+| name | value |
+| --- | --- |
+| Title | Example file for BT Mesh Sensor Temperature type definition in OneDM SDF format |
+| Version | 20190910 |
+| Copyright | Copyright 2019 Example Corp. All rights reserved. |
+| License | http://example.com/license |
+
+
+---
+
+**IPSO**
+
+**Name**: ipso3300-new.sdf.json
+
+| name | value |
+| --- | --- |
+| Title | Example ODM model for a relatively simple composed thing using    IPSO Smart Object Components |
+| Version | 20190524 |
+| Copyright | no copyright |
+| License | not licensed |
+
+**Name**: ipso3300.sdf.json
+
+| name | value |
+| --- | --- |
+| Title | Example ODM model for a relatively simple composed thing using    IPSO Smart Object Components |
+| Version | 20190524 |
+| Copyright | no copyright |
+| License | not licensed |
+
+
+---
+
+**OCF**
+
+**Name**: ocf-airflowcontrol.sdf.json
+
+| name | value |
+| --- | --- |
+| Title | OCF odmObject libarary |
+| Version | 20190530 |
+| Copyright | OCF (TBD) |
+| License | OCF (TBD) |
+
+**Name**: ocf-example.sdf.json
+
+| name | value |
+| --- | --- |
+| Title | Example ODM model to illustrate the use of the odmView class |
+| Version | 20190531 |
+| Copyright | no copyright |
+| License | not licensed |
+
+**Name**: ocf.washer-new.sdf.json
+
+| name | value |
+| --- | --- |
+| Title | OCF washer |
+| Version | 20190530 |
+| Copyright | OCF (TBD) |
+| License | OCF (TBD) |
+
+
+---
+
+**ZCL**
+
+**Name**: level.sdf.json
+
+| name | value |
+| --- | --- |
+| Title | Example ODM model for the ZCL Level cluster |
+| Version | 20190504 |
+| Copyright | no copyright |
+| License | not licensed |
+
+**Name**: level.x.sdf.json
+
+| name | value |
+| --- | --- |
+| Title | Example ODM model for the ZCL Level cluster |
+| Version | 20190504 |
+| Copyright | no copyright |
+| License | not licensed |
+
+
+---
