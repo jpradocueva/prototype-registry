@@ -55,10 +55,6 @@
 | name | Title | Version | Copyright | License |
 | ---- | ----- | ------- | ----------| --------|
 |  | Example file for BT Mesh Sensor Model definition in OneDM SDF format | 20190910 | Copyright 2019 Example Corp. All rights reserved. | http://example.com/license |
-
-
-| name | Title | Version | Copyright | License |
-| ---- | ----- | ------- | ----------| --------|
 |  | Example file for BT Mesh Sensor Temperature type definition in OneDM SDF format | 20190910 | Copyright 2019 Example Corp. All rights reserved. | http://example.com/license |
 
 
@@ -70,10 +66,6 @@
 | name | Title | Version | Copyright | License |
 | ---- | ----- | ------- | ----------| --------|
 |  | Example ODM model for a relatively simple composed thing using    IPSO Smart Object Components | 20190524 | no copyright | not licensed |
-
-
-| name | Title | Version | Copyright | License |
-| ---- | ----- | ------- | ----------| --------|
 |  | Example ODM model for a relatively simple composed thing using    IPSO Smart Object Components | 20190524 | no copyright | not licensed |
 
 
@@ -85,15 +77,7 @@
 | name | Title | Version | Copyright | License |
 | ---- | ----- | ------- | ----------| --------|
 |  | OCF odmObject libarary | 20190530 | OCF (TBD) | OCF (TBD) |
-
-
-| name | Title | Version | Copyright | License |
-| ---- | ----- | ------- | ----------| --------|
 |  | Example ODM model to illustrate the use of the odmView class | 20190531 | no copyright | not licensed |
-
-
-| name | Title | Version | Copyright | License |
-| ---- | ----- | ------- | ----------| --------|
 |  | OCF washer | 20190530 | OCF (TBD) | OCF (TBD) |
 
 
@@ -115,10 +99,6 @@
 | name | Title | Version | Copyright | License |
 | ---- | ----- | ------- | ----------| --------|
 |  | Example ODM model for the ZCL Level cluster | 20190504 | no copyright | not licensed |
-
-
-| name | Title | Version | Copyright | License |
-| ---- | ----- | ------- | ----------| --------|
 |  | Example ODM model for the ZCL Level cluster | 20190504 | no copyright | not licensed |
 
 
