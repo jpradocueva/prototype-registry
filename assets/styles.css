@@ -1,0 +1,43 @@
+tbody {
+  background-color: lightblue;
+}
+
+/* header */
+#cabeza {
+    background-color: rgba(125, 125, 125, 0.5);
+    padding: 8px;
+
+}
+
+#navegacion {
+    box-align: right;
+}
+
+/* footer */
+#pie {
+    background-color: rgba(125, 125, 125, 0.5);
+    padding: 8px;
+
+}
+
+/* table */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 1px solid rgba(125, 125, 125, 0.5);
+
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: rgba(10, 165, 36, 1.0);
+    color: white;
+  }
+
+  tr:hover {background-color: rgba(125, 125, 125, 0.5);}
+
