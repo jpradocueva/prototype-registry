@@ -6,18 +6,23 @@ header {
 nav {
  float: right;
  margin: 50px, 50px, 0.0;
+ padding: 25px 10px;
 }
-
+.menu {
+margin-left: 20px;
+}
 a {
     display: inline-block;
-    margin-left: 20px;
+
     color: rgba (0,0,0,0.7);
     size: 14px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 a:hover {
     background-color: rbga (0,0,0,0.1);
+    color: white;
 }
 
 h1 {
@@ -38,5 +43,6 @@ span {
 .kicker {
     color: white;
     padding: 0.2em 0.5em;
+    margin-left: 25px;
 
 }
