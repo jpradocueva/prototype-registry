@@ -16,6 +16,7 @@ a {
   text-transform: uppercase;
   color: rgb(248, 99, 121);
   text-decoration: none;
+  padding-right: 0.5em;
 }
 
 .container th h1 {
@@ -36,7 +37,7 @@ color: rgb(77, 195, 250);
   overflow: hidden;
   margin: 0  auto;
 display: table;
-padding: 0 0 8em 0;
+padding: 0 0 4em 0em;
 }
 
 .container td, .container th {
@@ -64,59 +65,6 @@ padding: 0 0 8em 0;
   font-size: 0.8em;
 }
 
-
-/* header */
-/*
-#cabeza {
-    background-color: rgb(30, 31, 38);
-    padding: 8px;
-
+.container tr:hover {
+  background-color: #464A52;
 }
-*/
-
-/*
-#navegacion {
-    box-align: right;
-}
-*/
-
-/* footer */
-/*
-#pie {
-    background-color: rgb(30, 31, 38);
-    padding: 8px;
-
-}
-*/
-
-/* table */
-
-/*
-table {
-    border-collapse: collapse;
-    width: 100%;
-    border-bottom: 1px solid rgba(125, 125, 125, 0.5);
-    color: white;
-
-  }
-*/
-
-
-
-/*
-  th, td {
-    text-align: left;
-    padding: 8px;
-  }
-*/
-  
-/*
-  th {
-    background-color: rgb(31, 39, 57);
-    color: rgb(29, 88, 117);
-  }
-*/
-
-
-  tr:hover {background-color: rgba(125, 125, 125, 0.5);}
-
