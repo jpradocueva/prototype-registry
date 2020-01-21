@@ -64,12 +64,84 @@
         </tr>
         <tr>
           <td></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/odmObject/odmobject-actuation.sdf.json" target='_blank'>Actuation</a></td>
+          <td>URN</td>
+          <td>20191116</td>
+          <td>Object</td>
+          <td>IPSO</td>
+          <td>This IPSO object is dedicated to remote actuation such as ON/OFF action or dimming. A multi-state output can also be described as a string. This is useful to send pilot wire orders for instance. It also provides a resource to reflect the time that the device has been switched on.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/odmObject/odmobject-addressable_text_display.sdf.json" target='_blank'>Addressable Text Display</a></td>
+          <td>URN</td>
+          <td>20191116</td>
+          <td>Object</td>
+          <td>IPSO</td>
+          <td>This IPSO object is used to send text to a text-only or text mode graphics display. Writing a string of text to the text resource causes it to be displayed at the selected X and Y locations on the display. If X or Y are set to a value greater than the size of the display, the position \"wraps around\" to the modulus of the setting and the display size. Likewise, if the text string overflows the display size, the text \"wraps around\" and displays on the next line down or, if the last line has been written, wraps around to the top of the display. Brightness and Contrast controls are provided to allow control of various display types including STN and DSTN type LCD character displays. Writing an empty payload to the Clear Display resource causes the display to be erased.</td>
+        </tr>
+        <tr>
+          <td></td>
           <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/odmObject/odmobject-airflow.sdf.json" target='_blank'>airflow</a></td>
           <td>URN</td>
           <td>20190215</td>
           <td>Object</td>
           <td>OCF</td>
           <td>This Resource describes Properties associated with air flow. The Property \"supporteddirections\" is the set of valid values for the direction property for a particular instance of this Resource Type. The Property \"direction\" is the directionality of the air flow if applicable, if Property \"supporteddirections\" is also present it must be a value from that set. The values of Property \"direction\" are dependent on the capabilities of the unit. The Property \"speed\" is an integer representing the current speed level for the unit. The Property \"range\" is an array of the min,max values for the speed level. If not present the \"range\" defaults to [0,100]. Property \"automode\" is the status of the automode feature; Off means automode is not enabled, On means automode is active and the speed is automatically controlled by the Device.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/odmObject/odmobject-airquality.sdf.json" target='_blank'>airquality</a></td>
+          <td>URN</td>
+          <td>20190613</td>
+          <td>Object</td>
+          <td>OCF</td>
+          <td>This Resource describes a qualitative or measured contaminant that can be used to infer Air Quality. The Property \"valueType\" indicates a qualitative or measured reading within the contaminantvalue Property. The Property \"contaminantvalue\" can contain the actual sensed value with units per contaminant type. Qualitative is a representative value within the range provided where the minimum value is minimum contamination and maximum value is maximum contamination for the specific contaminant. The Property \"contaminantvalue\" contains the actual measured or qualitative level. The Property \"range\" contains the allowed range for the value that is being reported. If valueType is 'Measured' then the units for the contaminant types are as follows: Methanol (also known as Formaldehyde): CH2O (ug/m^3), Carbon Dioxide: CO2 (ppm), Carbon Monoxide: CO (ppm), Particulate Matter (less than 1 micron in diameter): PM1 (ug/m^3), Particulate Matter (less than 2. 5 microns in diameter): PM2. 5 (ug/m^3), Particulate Matter (less than 10 microns in diameter): PM10 (ug/m^3), Volatile Organic Compounds: VOC (ug/m^3).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/odmObject/odmobject-alarm.sdf.json" target='_blank'>alarm</a></td>
+          <td>URN</td>
+          <td>2019-03-04</td>
+          <td>Object</td>
+          <td>OCF</td>
+          <td>This Resource describes the Properties associated with alarm status.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/odmObject/odmobject-altimeter.sdf.json" target='_blank'>altimeter</a></td>
+          <td>URN</td>
+          <td>20190225</td>
+          <td>Object</td>
+          <td>OCF</td>
+          <td>This Resource describes the properties associated with altimeter. The Property \"alt\" is the distance (metres) above or below 'local' sea-level.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/odmObject/odmobject-altitude.sdf.json" target='_blank'>Altitude</a></td>
+          <td>URN</td>
+          <td>20191116</td>
+          <td>Object</td>
+          <td>IPSO</td>
+          <td>This IPSO object should be used with an altitude sensor to report altitude above sea level in meters. Note that Altitude can be calculated from the measured pressure given the local sea level pressure.  It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is meters.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/odmObject/odmobject-analog_input.sdf.json" target='_blank'>Analog Input</a></td>
+          <td>URN</td>
+          <td>20191002</td>
+          <td>Object</td>
+          <td>IPSO</td>
+          <td>Generic analog input for non-specific sensors</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/odmObject/odmobject-analog_output.sdf.json" target='_blank'>Analog Output</a></td>
+          <td>URN</td>
+          <td>20191002</td>
+          <td>Object</td>
+          <td>IPSO</td>
+          <td>This IPSO object is a generic object that can be used with any kind of analog output interface.</td>
         </tr>
         <tr>
           <td></td>
@@ -82,237 +154,129 @@
         </tr>
         <tr>
           <td></td>
-          <td><a href="" target='_blank'>a</a></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/odmObject/odmobject-audio_clip.sdf.json" target='_blank'>Audio Clip</a></td>
           <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>20191116</td>
+          <td>Object</td>
+          <td>IPSO</td>
+          <td>This IPSO object should be used for a speaker that plays a pre-recorded audio clip or an audio output that is sent elsewhere. For example, an elevator which announces the floor of the building. A resource is provided to store the clip, a dimmer resource controls the relative sound level of the playback, and a duration resource limits the maximum playback time. After the duration time is reached, any remaining samples in the clip are ignored, and the clip player will be ready to play another clip.</td>
         </tr>
         <tr>
           <td></td>
-          <td><a href="" target='_blank'>a</a></td>
+          <td><a href="" target='_blank'></a></td>
           <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>version</td>
+          <td>type</td>
+          <td>organization</td>
+          <td>title/description</td>
         </tr>
         <tr>
           <td></td>
-          <td><a href="" target='_blank'>a</a></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/mjk-examples/IPSO/ipso3300.sdf.json" target='_blank'>?</a></td>
           <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>20190524</td>
+          <td>Object</td>
+          <td>IPSO</td>
+          <td>Example ODM model for a relatively simple composed thing using\n    IPSO Smart Object Components</td>
         </tr>
         <tr>
           <td></td>
-          <td><a href="" target='_blank'>a</a></td>
+          <td><a href="" target='_blank'></a></td>
           <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>version</td>
+          <td>type</td>
+          <td>organization</td>
+          <td>title/description</td>
         </tr>
         <tr>
           <td></td>
-          <td><a href="" target='_blank'>a</a></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/mjk-examples/OCF/ocf-airflowcontrol.sdf.json" target='_blank'>oic.r.switch.binary</a></td>
           <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>20190530</td>
+          <td>Object</td>
+          <td>OCF</td>
+          <td>This odmObject describes a binary switch (on/off).\nThe Property \"value\" is a boolean.\nA value of 'true' means that the switch is on.\nA value of 'false' means that the switch is off.\n</td>
         </tr>
         <tr>
           <td></td>
-          <td><a href="" target='_blank'>a</a></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/mjk-examples/OCF/ocf-example.sdf.json" target='_blank'>oic.r.temperature</a></td>
           <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>20190531</td>
+          <td>Object</td>
+          <td>OCF</td>
+          <td>Example ODM model to illustrate the use of the odmView class</td>
         </tr>
         <tr>
           <td></td>
-          <td><a href="" target='_blank'>a</a></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/mjk-examples/OCF/ocf.washer-new.sdf.json" target='_blank'>oic.d.washer</a></td>
           <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>20190530</td>
+          <td>Thing</td>
+          <td>OCF</td>
+          <td>washing machine. Note: this Model contains several objects.</td>
         </tr>
         <tr>
           <td></td>
-          <td><a href="" target='_blank'>a</a></td>
+          <td><a href="" target='_blank'></a></td>
           <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>version</td>
+          <td>type</td>
+          <td>organization</td>
+          <td>title/description</td>
         </tr>
         <tr>
           <td></td>
-          <td><a href="" target='_blank'>a</a></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/mjk-examples/ST/switch.sdf.json" target='_blank'>?</a></td>
           <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>20190424</td>
+          <td>Object</td>
+          <td>ST</td>
+          <td>Example file for ODM Simple JSON Definition Format</td>
         </tr>
         <tr>
           <td></td>
-          <td><a href="" target='_blank'>a</a></td>
+          <td><a href="" target='_blank'></a></td>
           <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>version</td>
+          <td>type</td>
+          <td>organization</td>
+          <td>title/description</td>
         </tr>
         <tr>
           <td></td>
-          <td><a href="" target='_blank'>a</a></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/mjk-examples/ZCL/level.sdf.json" target='_blank'>Level Control</a></td>
           <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>20190504</td>
+          <td>Object</td>
+          <td>ZCL</td>
+          <td>Example ODM model for the ZCL Level cluster</td>
         </tr>
         <tr>
           <td></td>
-          <td><a href="" target='_blank'>a</a></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/mjk-examples/ZCL/transitiontimedata.sdf.json" target='_blank'>?</a></td>
           <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>20190504</td>
+          <td>Data</td>
+          <td>ZCL</td>
+          <td>Example ODM model for the ZCL Level cluster</td>
         </tr>
         <tr>
           <td></td>
-          <td><a href="" target='_blank'>a</a></td>
+          <td><a href="" target='_blank'></a></td>
           <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>version</td>
+          <td>type</td>
+          <td>organization</td>
+          <td>title/description</td>
         </tr>
         <tr>
           <td></td>
-          <td><a href="" target='_blank'>a</a></td>
+          <td><a href="https://raw.githubusercontent.com/one-data-model/playground/master/mjk-examples/other/ica-fanmodel.sdf.json" target='_blank'>Fan</a></td>
           <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><a href="" target='_blank'>a</a></td>
-          <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><a href="" target='_blank'>a</a></td>
-          <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><a href="" target='_blank'>a</a></td>
-          <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><a href="" target='_blank'>a</a></td>
-          <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><a href="" target='_blank'>a</a></td>
-          <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><a href="" target='_blank'>a</a></td>
-          <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><a href="" target='_blank'>a</a></td>
-          <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><a href="" target='_blank'>a</a></td>
-          <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><a href="" target='_blank'>a</a></td>
-          <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><a href="" target='_blank'>a</a></td>
-          <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><a href="" target='_blank'>a</a></td>
-          <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><a href="" target='_blank'>a</a></td>
-          <td>URN</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>20190820</td>
+          <td>Object</td>
+          <td>ICA</td>
+          <td>Example file for ICA Fan definition in OneDM SDF format</td>
         </tr>
       </tbody>
       <!--Table body-->
