@@ -1,0 +1,7 @@
+footer {
+    height: 65px;
+    background: rgba(125, 125, 125, 0.5);
+}
+p {
+    padding: 1em 0.5em;
+}

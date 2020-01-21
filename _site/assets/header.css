@@ -1,0 +1,48 @@
+header {
+    height: 125px;
+    background: rgba(125, 125, 125, 0.5);
+}
+
+nav {
+ float: right;
+ margin: 50px, 50px, 0.0;
+ padding: 25px 10px;
+}
+.menu {
+margin-left: 20px;
+}
+a {
+    display: inline-block;
+
+    color: rgba (0,0,0,0.7);
+    size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rbga (0,0,0,0.1);
+    color: white;
+}
+
+h1 {
+    font: 72px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.2em 0.5em;
+
+
+}
+
+span {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+}
+
+.kicker {
+    color: white;
+    padding: 0.2em 0.5em;
+    margin-left: 25px;
+
+}
